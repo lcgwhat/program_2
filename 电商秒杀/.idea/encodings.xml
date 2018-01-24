@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/comment-server.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/goods-center.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/jquery-ui.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/login-and-register.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/person-center.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/prevent_to_much.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/text.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/comment-server.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/cout-down.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods-center.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login-and-register.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/op.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/person-center.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/prevent_to_much_click.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/showUI.js" charset="UTF-8" />
+  </component>
+</project>

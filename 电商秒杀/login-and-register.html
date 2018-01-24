@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="./css/login-and-register.css"/>
+<body>
+<a style="margin: 0 20px;cursor: pointer" id="login_show">账号密码登入</a><a style="cursor: pointer" id="reg_show">注册</a>
+<div id="logo">
+    <form>
+        <ul class="regsiter">
+            <li><input type="text" placeholder="请输入手机账号" id="user_id"/></li>
+            <li><span id="tips-uid"></span></li>
+            <li><input type="password" placeholder="请输入密码" id="user_psd"></li>
+            <li><span id="tips-upsd"></span></li>
+            <li><div id="pre11"></div></li>
+            <li><input type="button" value="登入" id="login"></li>
+            <li><input type="reset" value="退出" class="quite"></li>
+        </ul>
+    </form>
+
+</div>
+<div id="reg">
+    <form>
+        <ul class="regsiter">
+            <li><span>注册</span></li>
+            <li> <input type="text" placeholder="请输入手机账号" id="reg_id"/></li>
+            <li><span id="tips-reg-id"></span></li>
+            <li> <input type="password" placeholder="请输入密码" id="reg_psd"/></li>
+            <li><span id="tips-reg-psd"></span></li>
+            <li><input type="password" placeholder="确认密码" id="re_psd"/></li>
+            <li><span id="tips-reg-rpsd"></span></li>
+            <li id="pre1"></li>
+            <li><input type="button" value="注册" id="register" ></li>
+            <li> <input type="reset" value="退出" class="quite"></li>
+        </ul>
+    </form>
+</div>
+</body>
+<script src="./js/jquery-1.12.3.min.js"></script>
+<script src="./js/prevent_to_much_click.js"></script>
+<script src="./js/login-and-register.js"></script>
+
+</html>

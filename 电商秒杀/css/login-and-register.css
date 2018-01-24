@@ -1,0 +1,62 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+#logo{
+
+    width: 200px;
+    height: 250px;
+    text-align: center;
+
+    margin: 100px auto;
+}
+#logo input{
+
+    width: 180px;
+    height: 30px;
+}
+
+
+#reg{
+    display: none;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+
+    margin: 100px auto;
+}
+#reg input{
+
+    width: 180px;
+    height: 30px;
+}
+#login{
+    border-radius: 15px;
+    opacity: 0.6;
+    background-image: url("");
+}
+#register{
+    border-radius: 15px;
+    opacity: 0.6;
+}
+.quite{
+    border-radius: 15px;
+    opacity: 0.6;
+}
+#login_show{
+    color: skyblue;
+}
+#login_show:hover{
+    color: green;
+}
+#reg_show{
+    color: skyblue;
+}
+#reg_show:hover{
+    color: green;
+}
+.regsiter>li{
+    height: 35px;
+    list-style: none;
+}
