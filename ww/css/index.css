@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+.float{
+    clear: both;
+}
+.safewith{
+    width: 1190px;
+    margin: 0 auto;
+}
+#sitenav{
+    background-color: #ffffff;
+    height: 36px;
+}
+#safe_nav{
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.h{
+    line-height: 35px;
+    cursor:pointer;
+    color:gray;
+}
+.h:hover{
+    color:red;
+}
+.sitelogin{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+/*****************************   *****************************/
+.app-nav{
+    height: 56px;
+    background-color: #e63140;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 105px;
+    height: 40px;
+    margin: 10px 100px 0 8px;
+   background: url("../img/logo.png");
+    text-indent: -99999px;
+    overflow: hidden;
+}
+.nav-list{
+    padding-top: 14px;
+   float: left;
+}
+.nav{
+    text-align: -webkit-match-parent;
+    list-style: none;
+    display:list-item ;
+    float: left;
+}
+
+.nav span{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor:pointer;
+}
+.nav span:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #fa2b3c;
+    text-decoration: none;
+    cursor:pointer;
+}
+.sit-nav{
+    background: url("../img/sit-nav.png");
+    text-indent: -99999px;
+    overflow: hidden;
+    height: 40px;
+    margin: 6px 100px 0 8px;
+    float: left;
+    width: 420px;
+}
+/****************************************************8*/
+.time-select{
+    height: 56px;
+    background-color: #2e3a47;
+    min-width: 1190px;
+    width: 100%;
+    display: block;
+}
+.time-box{
+    float: left;
+    width: 920px;
+    position: relative;
+    height: 56px;
+}
+.next{
+    right: 0;
+    background-position: -43px -84px;
+    position: absolute;
+    top: 0;
+    width: 33px;
+    height: 56px;
+    background: #171d23 ;
+    cursor: pointer;
+}
+#howshow{
+    background-image:url('../img/tu.png');
+    background-position: -45px -83px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+#showpre{
+    background-image:url('../img/tu.png');
+    background-position: 0px -83px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pre{
+    left: 0;
+    background-position: 0 -84px;
+    position: absolute;
+    top: 0;
+    width: 33px;
+    height: 56px;
+    background: #171d23;
+    cursor: pointer;
+}
+.active-time{
+    position: absolute;
+    top: 0;
+    left: 415px;
+    background: url(../img/tu.png) no-repeat 2px -179px;
+    width: 90px;
+    height: 66px;
+}
+.scrollable-panel{
+    position: relative;
+    width: 845px;
+    height: 56px;
+    margin: 0 33px;
+    padding: 0 4px;
+    overflow: hidden;
+    display: block;
+}
+.scrollable-wrap{
+    position: absolute;
+    width: 2726px;
+    transition: -webkit-transform 0.2s;
+   // transform: translate3d(0px, 0px, 0px);
+    backface-visibility: hidden
+}
+.scrollable-content{
+    float: left;
+    width: 94px;
+    padding-top: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+}
+.time{
+    font-family: Helvetica,arial,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #888;
+    text-align: center;
+    line-height: 22px
+}
+.text{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 14px;
+}
+/****************************************************8*/
+
+.contain{
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 60px;
+    float: left;
+}
+.contain-safewith{
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    clear: none!important;
+}
+.content{
+    width: 920px;
+    padding-left: 12px;
+    margin-right: 40px;
+    float: left;
+}
+
+.show-box{
+    padding-bottom: 35px;
+    display: block;
+}
+.title{
+    position: relative;
+    height: 34px;
+    font-size: 20px;
+    color: #666;
+}
+
+.title>h3{
+    height: 28px;
+    line-height: 28px;
+    margin-top: 6px;
+    padding-left: 10px;
+    border-left: 6px solid #e63140;
+    font-weight: 400;
+}
+.title-r{
+    position: absolute;
+    right: 10px;
+    top: -6px;
+    font-size: 100%;
+    clear: none!important;
+}
+.title-r>span{
+    display: inline-block;
+    height: 34px;
+    line-height: 40px;
+    color: #666;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    vertical-align: top;
+}
+
+.qg-limit-list{
+    min-height: 500px;
+    margin-top: 24px;
+    width: 932px;
+     float: left;
+}
+#ok_login{
+display: none;
+}
+.active1>p{
+    color: white;
+}
+/*-******************** 商品show**********************************/
+.qg-item{
+    position: relative;
+    display: block;
+    float: left;
+    width: 448px;
+    border: 1px solid #f9f9f9;
+    height: 220px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.qg-item:hover{
+    border:1px solid red;
+}
+
+.qg-img{
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-right: 10px;
+    text-align: center;
+    background-position: center;
+}
+.qg-detail{
+    float: left;
+    width: 204px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.name{
+    height: 74px;
+}
+.des{
+    line-height: 26px;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+.link{
+    position: relative;
+    padding-top: 26px;
+}
+.price{
+    font-size: 0;
+    font-family: arial,sans-serif;
+    display: block;
+}
+.promo-price{
+    line-height: 30px;
+    font-size: 20px;
+    color: #fc353a;
+}
+
+.link-btn{
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: #fc353a;
+    background-color: #fcdcdd;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 82px;
+    height: 38px;
+    border: 1px solid #fcdcdd
+}
+.process{
+    margin-top: 10px
+}
+/*-******************** 商品show**********************************/
+
+.trigger-btn{
+    margin-right: 10px;
+    padding-top: 26px;
+    text-align: center;
+    font-size: 0;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+
+.J_QGPrev{
+    margin-right: 10px;
+    padding-left: 30px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: #fc353a;
+    color: #fff;
+    font-size: 14px;
+}
+.J_QGPrev>i{
+    left: 13px;
+    position: absolute;
+    top: 0;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 40px;
+    color: #fff;
+}
+
+.J_QGNext{
+    padding-right: 30px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: #fc353a;
+    color: #fff;
+    font-size: 14px;
+}
+
+.J_QGNext.i{
+    right: 13px;
+    position: absolute;
+    top: 0;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    vertical-align: middle;
+    font-style: italic;
+    text-align: right;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+/**********************分类*******************************/
+.aside{
+    z-index: 100;
+    width: 178px;
+    right: 46px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid  #666;
+}
+.aside2{
+    z-index: 100;
+    width: 200px;
+    right: 46px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid  #666;
+}
+.category{
+    padding-top: 15px;
+    padding-bottom: 14px;
+    margin: 0 18px;
+    border-top: 1px solid #e6e6e6;
+    clear: none!important;
+    list-style: none;
+    color: #666;
+}
+.category>li{
+    float: left;
+    width: 71px;
+    height: 24px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    cursor: pointer;
+}
+.category>li:hover{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+/***************************/
+#rtt {width:50px; height:50px; background:url('../img/rrt.png'); background-size:cover; position:fixed; right:50px; bottom:50px; border-radius: 5px; z-index:1000; display:none;}
+h1{text-align:center;}/*  返回顶部*/
+/**********************************banner******************************************/
+.banner{
+    height: 375px;
+    width: 100%;
+    background-color: #f2f0f1;
+}
+.promo{
+    position: relative;
+    float: left;
+    width: 920px;
+    height:  375px;
+    overflow: hidden;
+    background-color: #f2f0f1;
+}
+/*8**************************************************/
+#slides {
+    display: none
+}
+
+#slides .slidesjs-navigation {
+    margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+    background-image: url(../img/btns-next-prev.png);
+    background-repeat: no-repeat;
+    display:block;
+    width:12px;
+    height:18px;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: left;
+    margin-right:5px;
+}
+
+a.slidesjs-next {
+    margin-right:10px;
+    background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+    background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+    background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+    background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+    width:15px;
+    background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+    background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+    width:18px;
+    background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+    background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+    margin: 7px 0 0;
+
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../img/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
+#slides {
+    display: none
+}
+
+.container {
+    margin: 0 auto
+}
+
+/******************************************************************footer*/
+.vertical_head{ /*羊肉串--签字*/
+    width: 1px;
+    height: 100%;
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+}
+.vertical_body{/*羊肉串--每一部分*/
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+    text-align: center;
+}
+#footer{
+    height: 220px;
+    width: 100%;
+    background-color:  #edf1f2;
+    float: left;
+}
+#footer_1{
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-size: 15px;
+    margin-top: 50px;
+}
+#footer_1_2>ul{
+    margin-top:20px;
+}
+#footer_1_2 li{
+    list-style: none;
+
+}
+#footer_2{
+    float: left;
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 92px;
+    margin-left: 20px;
+}
+#footer_3{
+    float: left;
+    height:120px;
+    width:78px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footer_3_2{
+    margin-top: 20px;
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 78px;
+    width: 78px;
+}
+#footer_4{
+    float: left;
+    height: 120px;
+    width:77px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 93px;
+    margin-left: 20px;
+}
+#footer_4_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 77px;
+    width: 77px;
+}
+#footer_5{
+    float: left;
+    height: 120px;
+    width:163px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-left:300px;
+    margin-top: 95px;
+}
+#footer_5_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 47px;
+    width: 163px;
+}
+#footer_6{
+    float: left;
+    height: 120px;
+    width:180px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top:85px;
+}

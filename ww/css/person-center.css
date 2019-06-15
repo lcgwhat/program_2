@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+.float{
+    clear: both;
+}
+.safewith{
+    width: 1190px;
+    margin: 0 auto;
+}
+#sitenav{
+    background-color: #ffffff;
+    height: 36px;
+}
+#safe_nav{
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.h{
+    line-height: 35px;
+    cursor:pointer;
+    color:gray;
+}
+.h:hover{
+    color:red;
+}
+.sitelogin{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.app-nav{
+    height: 56px;
+    background-color: #e63140;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 105px;
+    height: 40px;
+    margin: 10px 100px 0 8px;
+    background: url("../img/logo.png");
+    text-indent: -99999px;
+    overflow: hidden;
+}
+.nav-list{
+    padding-top: 14px;
+    float: left;
+}
+.nav{
+    text-align: -webkit-match-parent;
+    list-style: none;
+    display:list-item ;
+    float: left;
+}
+
+.nav span{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor:pointer;
+}
+.nav span:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #fa2b3c;
+    text-decoration: none;
+    cursor:pointer;
+}
+.sit-nav{
+    background: url("../img/sit-nav.png");
+    text-indent: -99999px;
+    overflow: hidden;
+    height: 40px;
+    margin: 6px 100px 0 8px;
+    float: left;
+    width: 420px;
+}
+/******************person****************************/
+.app-person{
+   // height: 56px;
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+.message{
+    width: 200px;
+    height: 700px;
+    background: lightcyan;
+    float: left;
+}
+.change{
+    width: 990px;
+    height: 700px;
+    background-color: skyblue;
+    float: left;
+}
+
+/***************************person*************************************/
+.name{
+     text-align: center;
+    line-height: 30px;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.name>span{
+    line-height: 30px;
+}
+.topUp{
+    border: 1pt solid lightgray;
+    padding: 3px 3px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+/*******************************order************************************/
+.orderUI{
+    width: 900px;
+    border: 1px solid #bac6d4;
+
+}
+.date{
+    width: 100px;
+    text-align: center;
+    height: 40px;
+}
+.orderNum{
+    width: 200px;
+    text-align: left;
+}
+.delect{
+    text-align: right;
+}
+.delect1{
+    margin-right: 10px;
+    padding: 4px 4px;
+}
+.goods_photo{
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+}
+.picture{
+    height: 120px;
+    text-align: center;
+    width: 120px;
+}
+.goodsMess{
+    width:80px;
+    text-align: left;
+}
+.callme:hover{
+    color: white;
+    background: skyblue;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2px 2px;
+}
+/***********************888888888888888*/
+.psd{
+    height: 30px;
+    margin-top: 6px;
+}
+.input-site{
+    width: 300px;
+    height: 34px;
+    border: 1px solid darkgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.set_site{
+    margin-left: 5px;
+    padding: 0px 4px;
+}
+.type{
+    border: none;
+    padding: 2px 4px;
+    background-color:red;
+    color: white;
+    border-radius: 2px;
+}
+.type:hover{
+    border: 1px solid darkgrey;
+}
+
+/********************************footer****************************************/
+.vertical_head{ /*羊肉串--签字*/
+    width: 1px;
+    height: 100%;
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+}
+.vertical_body{/*羊肉串--每一部分*/
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+    text-align: center;
+}
+#footer{
+    height: 220px;
+    width: 100%;
+    background-color: #edf1f2;
+    float: left;
+}
+#footer_1{
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-size: 15px;
+    margin-top: 50px;
+}
+#footer_1_2>ul{
+    margin-top:20px;
+}
+#footer_1_2 li{
+    list-style: none;
+
+}
+#footer_2{
+    float: left;
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 92px;
+    margin-left: 20px;
+}
+#footer_3{
+    float: left;
+    height:120px;
+    width:78px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footer_3_2{
+    margin-top: 20px;
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 78px;
+    width: 78px;
+}
+#footer_4{
+    float: left;
+    height: 120px;
+    width:77px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 93px;
+    margin-left: 20px;
+}
+#footer_4_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 77px;
+    width: 77px;
+}
+#footer_5{
+    float: left;
+    height: 120px;
+    width:163px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-left:300px;
+    margin-top: 95px;
+}
+#footer_5_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 47px;
+    width: 163px;
+}
+#footer_6{
+    float: left;
+    height: 120px;
+    width:180px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top:85px;
+}
+

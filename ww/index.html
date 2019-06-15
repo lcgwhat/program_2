@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="application/ccmp+xmlg">
+    <title>秒杀首页</title>
+</head>
+<link rel="stylesheet" href="./css/index.css"/>
+<link rel="stylesheet" href="css/example.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<body>
+<div id='rtt'></div>
+<!-----------------------登入-------------- -->
+    <div id="sitenav">
+        <div id="safe_nav">
+            <ul>
+                <li class="sitelogin" id="not_login">
+                    <div>
+                        <span class="h to_log_re" >请先登入</span>
+                        <span class="h to_log_re">免费注册</span>
+                    </div>
+                </li>
+                <li class="sitelogin"  id="ok_login">
+                    <div>
+                        <span class="h" id="user_login">hi,gun and rose</span>
+                        <span class="h" id="quite">退出</span>
+                    </div>
+                </li>
+                <li class="sitelogin">
+                    <div>
+                        <span class="h" id="person">个人中心</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-----------------------首页-------------- -->
+    <div class="app-nav">
+        <div class="safewith float">
+            <span class="logo"></span>
+            <ul class="nav-list">
+                <li class="nav"><span>首页</span></li>
+                <li class="nav"><span>品牌抢购</span></li>
+                <li class="nav"><span>即将开场</span></li>
+            </ul>
+            <span class="sit-nav"></span>
+        </div>
+    </div>
+<!-----------------------banner-------------- -->
+    <div class="banner">
+        <div class="safewith float">
+            <div class="promo">
+                <div class="container">
+                    <div id="slides">
+                        <img id="img1" src="" alt="加载失败">
+                        <img id="img2" src="" alt="加载失败">
+                        <img id="img3" src="" alt="加载失败">
+                        <img id="img4" src="" alt="加载失败">
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+<!-----------------------时间条-------------- -->
+    <div class="time-select">
+        <div class="safewith">
+            <div class="time-box">
+                <div class="trigger-bar">
+                    <span class="next" id="howshow"></span>
+                    <span class="pre" id="showpre"></span>
+                </div>
+                <div class="active-time"></div>
+                <div class="scrollable-panel">
+                    <div class="scrollable-wrap">
+                        <!--<div class="scrollable-content">-->
+                            <!--<p class="time">8:00</p>-->
+                            <!--<p class="text">已开抢</p>-->
+                        <!--</div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------- -->
+    <div class="contain">
+        <div class="contain-safewith">
+            <div class="content">
+                <div class="show-box">
+                    <div class="title">
+                        <h3>限时限量 疯狂抢购</h3>
+                        <div class="title-r">
+                            <span>距离本场结束：</span>
+                            <span id="addtime">00:00:00</span>
+                        </div>
+                    </div>
+                    <div class="qg-limit-list">
+                        <a class="qg-item">
+                            <div class="qg-img" style="background: url('./img/ACC/ACC1.png')"></div>
+                            <div class="qg-detail">
+                                <div class="name">
+                                    <p class="des">[新品]华为荣耀V9 play</p>
+                                </div>
+                                <div class="link">
+                                    <div class="price">
+                                        <span class="promo-price">$9.9</span>
+                                    </div>
+                                    <div class="link-btn">马上抢</div>
+                                </div>
+                                <div class="process"></div>
+                            </div>
+                        </a>
+                        <!--<a class="qg-item">-->
+                            <!--<div class="qg-img" style="background: url('./img/ACC/ACC1.png')"></div>-->
+                            <!--<div class="qg-detail">-->
+                                <!--<div class="name">-->
+                                    <!--<p class="des">[新品]华为荣耀V9 play</p>-->
+                                <!--</div>-->
+                                <!--<div class="link">-->
+                                    <!--<div class="price">-->
+                                        <!--<span class="promo-price">$9.9</span>-->
+                                    <!--</div>-->
+                                    <!--<div class="link-btn">马上抢</div>-->
+                                <!--</div>-->
+                                <!--<div class="process"></div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+
+                    </div>
+                    <div class="trigger-btn">
+                        <span class="pre J_QGPrev"><i>&lt;</i>上一场</span>
+                        <span class="next J_QGNext">下一场<i>&gt;</i></span>
+                    </div >
+                </div>
+
+            </div>
+            <div class="aside" style="position: fixed; top: 100px; left: 1045px;">
+                <p>分类</p>
+                <ul class="category">
+                    <li>食品</li>
+                    <li>运动户外</li>
+                    <li>车品旅行</li>
+                    <li>男装</li>
+                    <li>手表配饰</li>
+                    <li>食品</li>
+                </ul>
+            </div>
+            <div class="aside2" style="position: fixed; top: 350px; left: 1045px;height: 200px">
+                <div class="hero">
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                    <p>运动户外</p>
+                </div>
+                <p>运动户外</p>
+                <!--<p>车品旅行</p>-->
+                <!--<p>车品旅行</p>-->
+
+            </div>
+        </div>
+
+    </div>
+<!----------------------------------------------->
+<div id="footer">
+    <div class="safewith">
+        <div class="vertical_head"></div>
+        <div id="footer_1" class="vertical_body">
+            <div class="vertical_body"><span>关于我们</span></div>
+            <div id="footer_1_2" class="vertical_body">
+                <ul class="vertical_body">
+                    <li>关于我们</li>
+                    <li>常见问题</li>
+                    <li>法律条款</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_2" class="vertical_body">
+            <div><span>联系我们</span></div>
+            <div><span>意见反馈</span></div>
+        </div>
+        <div id="footer_3" class="vertical_body">
+            <div class="vertical_body"><span>关注我们</span></div>
+            <div id="footer_3_2"></div>
+        </div>
+        <div id="footer_4" class="vertical_body">
+            <div id="footer_4_1"></div>
+        </div>
+        <div id="footer_5" class="vertical_body">
+            <div id="footer_5_1"></div>
+        </div>
+        <div id="footer_6" class="vertical_body">
+            <div><span>Copy Right 2014-2016</span></div>
+            <div><span>卓越教育</span></div>
+            <div><span>All Rights Reserve</span></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/jquery-1.12.3.min.js"></script>
+<script src="js/cout-down.js"></script>
+<script src="./js/showUI.js"></script>
+<script src="./js/index.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+<script>
+    $(function() {
+        $('#slides').slidesjs({
+            width: 920,
+            height: 340,
+            play: {
+                active: true,
+                auto: true,
+                interval: 2000,
+                swap: true
+            }
+        });
+    });
+</script>
+</html>
