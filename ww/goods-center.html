@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商品详细</title>
+</head>
+<link rel="stylesheet" href="./css/goods-center.css"/>
+<link rel="stylesheet" href="./css/jquery-ui.css"/>
+<body>
+<div id="showCall" style="display: none">
+    <div class="chatdig"></div>
+</div>
+    <div id="sitenav">
+        <div id="safe_nav">
+            <ul>
+                <li class="sitelogin" id="not_login">
+                    <div>
+                        <span class="h to_log_re" >请先登入</span>
+                        <span class="h to_log_re">免费注册</span>
+                    </div>
+                </li>
+                <li class="sitelogin"  id="ok_login">
+                    <div>
+                        <span class="h" id="user_login">hi,gun and rose</span>
+                        <span class="h" id="quite">退出</span>
+                    </div>
+                </li>
+                <li class="sitelogin">
+                    <div>
+                        <span class="h" id="person">个人中心</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!----------------------------------------------------------------->
+    <div class="app-nav">
+        <div class="safewith float">
+            <span class="logo"></span>
+            <ul class="nav-list">
+                <li class="nav"><span id="index">首页</span></li>
+                <li class="nav"><span>品牌抢购</span></li>
+                <li class="nav"><span>即将开场</span></li>
+            </ul>
+            <span class="sit-nav"></span>
+        </div>
+    </div>
+<!------------------------------------------------------------------>
+<div id="content">
+    <div id="detail">
+        <div id="" class="tm-detail-meta">
+
+                <div class="tb-gallery">
+                    <div class="tb-booth" style="background: url('')"></div>
+                    <div class="tb-wrap">
+                        <div class="tb-detail-hd">
+                            <h1></h1>
+                        </div>
+                        <div class="tm-promo-price">
+                            <em class="tm-yen">¥</em>
+                            <span class="tm-price">9.9</span>
+                        </div>
+                        <div class="tb-action">
+                            <a class="buy">立即购买</a>
+                        </div>
+                        <div id="pre" style="margin-top: 60px;text-align: center"></div>
+                        <div style="border: 1px solid red;float: left;height: 200px;width: 300px;margin-left: 10px;margin-top: 20px">
+                            <p>秒杀规则</p>
+                            <ul class="rule">
+                                <li><span>1.请提前</span><a class="miaosha" id="dialog-link">绑定手机号</a></li>
+                                <li><span>2.秒杀将直接使用默认</span><a class="miaosha" id="dialog-link2">收货地址</a><span>，请提前设置</span></li>
+                                <li><span>3.在防黄牛的路上，我们一直在努力，所以需要你<a class="miaosha">拖动滑块完成验证</a>，和我们一起努力</span></li>
+                                <li><span>4.秒杀成功后，请您在30分钟内付款，过期自动取消订单。</span></li>
+                            </ul>
+                        </div>
+                        <div id="callme" serverId="123123">
+                            <span>联系卖家</span></div>
+                    </div>
+                </div>
+
+            <!-- Tabs -->
+            <h2 class="demoHeaders">商品详细</h2>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">商品详细</a></li>
+                    <li id="evaluate"><a href="#tabs-2">累计评价</a></li>
+
+                </ul>
+                <div id="tabs-1" style="min-height: 300px"> adipliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <div id="tabs-2" style="min-height: 300px">
+                    <ul id="evaluate_show">
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!----------------------------------------------------------------->
+    <div id="footer">
+        <div class="safewith">
+            <div class="vertical_head"></div>
+            <div id="footer_1" class="vertical_body">
+                <div class="vertical_body"><span>关于我们</span></div>
+                <div id="footer_1_2" class="vertical_body">
+                    <ul class="vertical_body">
+                        <li>关于我们</li>
+                        <li>常见问题</li>
+                        <li>法律条款</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer_2" class="vertical_body">
+                <div><span>联系我们</span></div>
+                <div><span>意见反馈</span></div>
+            </div>
+            <div id="footer_3" class="vertical_body">
+                <div class="vertical_body"><span>关注我们</span></div>
+                <div id="footer_3_2"></div>
+            </div>
+            <div id="footer_4" class="vertical_body">
+                <div id="footer_4_1"></div>
+            </div>
+            <div id="footer_5" class="vertical_body">
+                <div id="footer_5_1"></div>
+            </div>
+            <div id="footer_6" class="vertical_body">
+                <div><span>Copy Right 2014-2016</span></div>
+                <div><span>卓越教育</span></div>
+                <div><span>All Rights Reserve</span></div>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------------->
+    <div id="dialog" title="绑定手机号">
+        <!--<p id="cell_number"></p>-->
+    </div>
+    <div id="dialog2" title="绑定地址">
+        <!--<p id="getsite"></p>-->
+        <p id="allsite">
+
+        </p>
+    </div>
+</body>
+<script src="./js/jquery-1.12.3.min.js"></script>
+<script src="./js/prevent_to_much_click.js"></script>
+<script src="./js/picture.js"></script>
+<script src="./js/canvas.js"></script>
+<script src="./js/MyDialog.js"></script>
+<script src="./js/op.js"></script>
+<script src="./js/showUI.js"></script>
+<script src="external/jquery/jquery.js"></script>
+<script src="./js/jquery-ui.js"></script>
+
+
+<script src="./js/goods-center.js"></script>
+
+</html>

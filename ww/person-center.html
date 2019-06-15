@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+</head>
+<link rel="stylesheet" href="./css/person-center.css"/>
+<link rel="stylesheet" href="./css/jquery-ui.css"/>
+<body>
+
+<div id="sitenav">
+    <div id="safe_nav">
+        <ul>
+            <li class="sitelogin" id="not_login">
+                <div>
+                    <span class="h to_log_re" >请先登入</span>
+                    <span class="h to_log_re">免费注册</span>
+                </div>
+            </li>
+            <li class="sitelogin"  id="ok_login">
+                <div>
+                    <span class="h" id="user_login">hi,gun and rose</span>
+                    <span class="h" id="quite">退出</span>
+                </div>
+            </li>
+            <li class="sitelogin">
+                <div>
+                    <span class="h">个人中心</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!----------------------------------------------------------------->
+<div class="app-nav">
+    <div class="safewith float">
+        <span class="logo"></span>
+        <ul class="nav-list">
+            <li class="nav"><span id="index">首页</span></li>
+            <li class="nav"><span>账户设置</span></li>
+            <li class="nav"><span>我的订单</span></li>
+        </ul>
+        <span class="sit-nav"></span>
+    </div>
+</div>
+<!------------------------------------------------------------------>
+<div class="app-person">
+    <div class="safewith">
+        <div>
+            <div class="message">
+                <div class="photo"><img src="img/photo/photo21.jpeg"/></div>
+                <p class="name"><span>陈绮贞</span></p>
+                <p class="name"><span>注册日期：2017-9-9</span></p>
+                <p class="name"><span>账户余额:200</span><button class="topUp">充值</button></p>
+            </div>
+            <div class="change">
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">个人信息</a></li>
+                        <li id="myorder"><a href="#tabs-2">我的订单</a></li>
+                        <li id="myMessage"><a href="#tabs-3">我的消息</a></li>
+                    </ul>
+                    <div id="tabs-1" style=" height: 616px;">
+                        <div id="accordion">
+                            <h3>个人信息</h3>
+                            <div><p><span id="change_psd">修改密码</span></p>
+                               <p><span>输入原密码：</span><input type="password" placeholder="输入密码" class="psd" id="oldPsd"/><span id="tipsO"></span></p>
+                                <p><span>输入新密码：</span><span></span><input type="password" placeholder="输入密码" class="psd" id="newPsd"/><span id="tipsN"></span></p>
+                                <p><span>确认密码：</span><span></span><input type="password" placeholder="输入密码" class="psd" id="rPsd"/><span id="tipsR"></span></p>
+                                <button id="changePsw">确认</button>
+                            </div>
+                            <h3 id="site">收货地址</h3>
+                            <div>
+                                <div id="mysite">
+                                    <p><span>默认收货地址：。。。。。。。</span></p>
+                                </div>
+                               <div>
+                                   <h3 >收货地址</h3>
+                                   <ul id="allsite">
+                                       <li>检查菜刀队的的的<input type="button" value="设为收货地址" class="set_site"/></li>
+                                       <li>检查菜刀队的的的<input type="button" value="设为收货地址"/></li>
+                                       <li>检查菜刀队的的的<input type="button" value="设为收货地址"/></li>
+                                   </ul>
+                               </div>
+                                <div>
+                                    <h3>添加收货地址</h3>
+                                    <div id="addSite" contenteditable="true" class="input-site" style="overflow-y: auto"></div>
+                                    <input type="button" value="确定" id="add"/>
+                                </div>
+                            </div>
+                            <!--<h3>Third</h3>-->
+                            <!--<div>Nam dui erat, auctor a, dignissim quis.</div>-->
+                        </div>
+                    </div>
+                    <div id="tabs-2" style=" height: 616px;">
+                        <div id="tabs2">
+                            <ul>
+                                <li><a href="#tabs2-1">已支付</a></li>
+                                <li id="notpay"><a href="#tabs2-2">待支付</a></li>
+                                <li id="useless"><a href="#tabs2-3">无效订单</a></li>
+
+                            </ul>
+                            <div id="tabs2-1" style=" height: 554px;overflow-y: auto">
+
+                            </div>
+                            <div id="tabs2-2" style=" height: 554px;overflow-y: auto">
+
+                            </div>
+                            <div id="tabs2-3" style=" height:554px;overflow-y: auto"> </div>
+
+                        </div>
+                    </div>
+                    <div id="tabs-3" style=" height: 616px;overflow-y: auto">
+                        <ul id="message">
+                            <li>
+                                <p>2014-222-3</p>
+                                <p><span>from:dd</span> <span>dddddd</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------footer-------------------------------------->
+<div id="footer">
+    <div class="safewith">
+        <div class="vertical_head"></div>
+        <div id="footer_1" class="vertical_body">
+            <div class="vertical_body"><span>关于我们</span></div>
+            <div id="footer_1_2" class="vertical_body">
+                <ul class="vertical_body">
+                    <li>关于我们</li>
+                    <li>常见问题</li>
+                    <li>法律条款</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_2" class="vertical_body">
+            <div><span>联系我们</span></div>
+            <div><span>意见反馈</span></div>
+        </div>
+        <div id="footer_3" class="vertical_body">
+            <div class="vertical_body"><span>关注我们</span></div>
+            <div id="footer_3_2"></div>
+        </div>
+        <div id="footer_4" class="vertical_body">
+            <div id="footer_4_1"></div>
+        </div>
+        <div id="footer_5" class="vertical_body">
+            <div id="footer_5_1"></div>
+        </div>
+        <div id="footer_6" class="vertical_body">
+            <div><span>Copy Right 2014-2016</span></div>
+            <div><span>卓越教育</span></div>
+            <div><span>All Rights Reserve</span></div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------->
+<div id="dialog3" title="改名">
+    <p><input type="text" placeholder="输入名字" id="name"/></p>
+</div>
+<div id="dialog" title="充值">
+    <p><input type="text" placeholder="输入金额" id="money"/></p>
+</div>
+<div id="dialog2" title="pinglun">
+    <p><input type="text" placeholder="输入评论" id="pinglun"/></p>
+</div>
+</body>
+<script src="./js/jquery-1.12.3.min.js"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/showUI.js"></script>
+<script src="./js/cout-down.js"></script>
+<script src="./js/person-center.js"></script>
+</html>

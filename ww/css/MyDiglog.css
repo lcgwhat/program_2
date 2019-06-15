@@ -1,0 +1,75 @@
+
+.chat{
+    width: 650px;
+    height: 575px;
+    border: 1px solid white;
+    border-radius: 6px;
+    float: left;
+    /*margin-left: 30px;*/
+   /* margin-top: 50px;*/
+    position: relative;
+    background-color: khaki;
+    background-size: contain;
+    /*display: none;*/
+}
+.head{
+    height: 99px;
+    width: 100%;
+    background-color: ivory;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    text-align: center;
+}
+.head>span{
+    line-height: 99px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.chat_mess{
+    color: white;
+    height: 341px;
+    width: 100%;
+    background-color: ivory;
+    background-color: rgba(0,0,0,0.2);
+}
+.picture{
+    height: 25px;
+    width: 100%;
+    background-color: ivory;
+    background-color: rgba(0,0,0,0.1);
+}
+.input_div{
+    height: 85px;
+    width:550px;
+    background-color: ivory;
+    overflow-y: auto;
+}
+.btn{
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.pictures{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    display: none;
+    top:292px;
+    left:563px;
+    background-color: ivory;
+}
+.btn3{
+    width: 50px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.canvs{
+    border: 1px solid gray;
+    background-color: white;
+}

@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+.float{
+    clear: both;
+}
+.safewith{
+    width: 1190px;
+    margin: 0 auto;
+}
+#sitenav{
+    background-color: #ffffff;
+    height: 36px;
+}
+#safe_nav{
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.h{
+    line-height: 35px;
+    cursor:pointer;
+    color:gray;
+}
+.h:hover{
+    color:red;
+}
+.sitelogin{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+/*****************************   *****************************/
+.app-nav{
+    height: 56px;
+    background-color: #e63140;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 105px;
+    height: 40px;
+    margin: 10px 100px 0 8px;
+    background: url("../img/logo.png");
+    text-indent: -99999px;
+    overflow: hidden;
+}
+.nav-list{
+    padding-top: 14px;
+    float: left;
+}
+.nav{
+    text-align: -webkit-match-parent;
+    list-style: none;
+    display:list-item ;
+    float: left;
+}
+
+.nav span{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor:pointer;
+}
+.nav span:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #fa2b3c;
+    text-decoration: none;
+    cursor:pointer;
+}
+.sit-nav{
+    background: url("../img/sit-nav.png");
+    text-indent: -99999px;
+    overflow: hidden;
+    height: 40px;
+    margin: 6px 100px 0 8px;
+    float: left;
+    width: 420px;
+}
+/******************************************88888888*/
+#content{
+    background-color: #fff;
+    width: auto;
+}
+#detail{
+    width: 1190px!important;
+    margin: 20px auto;
+}
+.tm-detail-meta{
+    width: 990px;
+    position: relative;
+    z-index: 100;
+    min-height: 600px;
+}
+.tb-gallery{
+
+    float: left;
+    width: 990px;
+    position: relative;
+}
+.tb-booth{
+ position: relative;
+   table-layout: fixed;
+    z-index: 1;
+    width: 420px;
+    height: 420px;
+    margin: 20px auto 0;
+    float: left;
+}
+.tb-wrap{
+   position: relative;
+   table-layout: fixed;
+    z-index: 1;
+    width: 420px;
+    height: 420px;
+    margin: 20px auto 0;
+    float: left;
+
+}
+.tb-detail-hd{
+    padding: 20px 10px 12px;
+    color: #000;
+}
+.tb-detail-hd>h1{
+    padding-bottom: .2em;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.tm-promo-price{
+    line-height: 24px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+}
+.tm-promo-price>em{
+    vertical-align: middle;
+    font-size: 30px;
+    color: #FF0036;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+}
+.tm-price{
+    vertical-align: middle;
+    font-size: 30px;
+    color: #FF0036;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+}
+.tb-action{
+    clear: both;
+    padding: 10px 0 0 66px;
+    margin: 10px 0 0;
+    text-align: center;
+}
+.tb-action>a{
+    margin-right: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+    background-color: #ffeded;
+    border: 1px solid #FF0036;
+    color: #FF0036;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rule>li{
+    list-style: none;
+}
+.miaosha{
+    color: royalblue;
+    border: 1px solid red;
+    cursor: pointer;
+}
+    /******************************************************/
+.vertical_head{ /*羊肉串--签字*/
+    width: 1px;
+    height: 100%;
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+}
+.vertical_body{/*羊肉串--每一部分*/
+    display: inline-block;/*与其他元素在同一行显示*/
+    vertical-align: middle;/*垂直方向的居中方式*/
+    text-align: center;
+}
+#footer{
+    height: 220px;
+    width: 100%;
+    background-color: #edf1f2;
+}
+#footer_1{
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-size: 15px;
+    margin-top: 50px;
+}
+#footer_1_2>ul{
+    margin-top:20px;
+}
+#footer_1_2 li{
+    list-style: none;
+
+}
+#footer_2{
+    float: left;
+    height: 120px;
+    width:70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 92px;
+    margin-left: 20px;
+}
+#footer_3{
+    float: left;
+    height:120px;
+    width:78px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footer_3_2{
+    margin-top: 20px;
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 78px;
+    width: 78px;
+}
+#footer_4{
+    float: left;
+    height: 120px;
+    width:77px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 93px;
+    margin-left: 20px;
+}
+#footer_4_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 77px;
+    width: 77px;
+}
+#footer_5{
+    float: left;
+    height: 120px;
+    width:163px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-left:300px;
+    margin-top: 95px;
+}
+#footer_5_1{
+    background-image: url("../img/footer.png");
+    background-size: contain;
+    height: 47px;
+    width: 163px;
+}
+#footer_6{
+    float: left;
+    height: 120px;
+    width:180px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top:85px;
+}
+
+
+/***********************/
+#dialog-link {
+    padding: 1px 1px 1px 1px;
+    text-decoration: none;
+    position: relative;
+}
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+/***********************/
+#callme{
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 65px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px
+}
+#showCall{
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 5000000;
+    //display: none;
+}
+.chatdig{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: darkred;
+    position: fixed;
+    left: 300px;
+    top: 22px;
+}

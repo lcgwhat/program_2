@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+input{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.zhe{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+}
+.login-show{
+    width: 300px;
+   margin: 250px auto;
+    border: 2px solid white;
+    text-align: center;
+}
+.login{
+    list-style: none;
+}
+.login>li{
+    height: 35px;
+    width: 220px;
+}
+.login span{
+    line-height: 35px;
+}
+.login input{
+    height: 35px;
+}
+/******************************/
+.float{
+    clear: both;
+}
+.safewith{
+    width: 1190px;
+    margin: 0 auto;
+}
+#sitenav{
+    background-color: #ffffff;
+    height: 36px;
+}
+#safe_nav{
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.h{
+    line-height: 35px;
+    cursor:pointer;
+    color:gray;
+}
+.h:hover{
+    color:red;
+}
+.sitelogin{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.app-nav{
+    height: 56px;
+    background-color: #e63140;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 105px;
+    height: 40px;
+    margin: 10px 100px 0 8px;
+    background: url("../img/logo.png");
+    text-indent: -99999px;
+    overflow: hidden;
+}
+.nav-list{
+    padding-top: 14px;
+    float: left;
+}
+.nav{
+    text-align: -webkit-match-parent;
+    list-style: none;
+    display:list-item ;
+    float: left;
+}
+
+.nav span{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor:pointer;
+}
+.nav span:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #fa2b3c;
+    text-decoration: none;
+    cursor:pointer;
+}
+.sit-nav{
+    background: url("../img/sit-nav.png");
+    text-indent: -99999px;
+    overflow: hidden;
+    height: 40px;
+    margin: 6px 100px 0 8px;
+    float: left;
+    width: 420px;
+}
+/**********************/
+#content{
+    width: 260px;
+    height: 530px;
+    border: 1px solid #bbbbbb;
+   box-shadow: 3px 4px 60px skyblue;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    float: left;
+    background-size: contain;
+    border-radius: 68px;
+}
+.name{
+    float: left;
+    width: 155px;
+    height: 100px;
+}
+.chat123{
+    list-style: none;
+    margin-top: 2px;
+    border-top: 1px solid #c5c5c5;
+}
+.chat123>li{
+    border-bottom: 1px solid #bbbbbb;
+    margin-top: 2px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+#myDialog{
+    float: left;
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
